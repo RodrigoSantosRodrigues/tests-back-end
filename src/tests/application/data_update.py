@@ -50,11 +50,11 @@ data_repository_get_hero_created = {
 
 data_repository_update_hero_created = {
     "kind": "Hero",
-    "points": 4,
+    "points": 3,
     "token": "xxxxxx",
     "f": 1,
     "h": 0,
-    "r": 0,
+    "r": 1,
     "a": 0,
     "pdf": 0,
 }
