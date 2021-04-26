@@ -1,31 +1,30 @@
-/character/create
-
+POST
+/character
 REQUEST:
 {
-    "kind": "normal"/"super"/"legend"
+    "kind": "Person"/"Hero"/"Fighter"/"Champion"/"Legend"
 }
-
 RESPONSE:  
-
 {
-    "token": xxx,
-    "points"
+    "token": "xxxxxxx",
+    "points": 0
 }
 
-REQUEST:
 
+
+PUT
+/character
+REQUEST:
 {
-    "token": xxx,
-    "operation": "addPoint", "removePoint", "addVantage", "removeVantage", "addDisadvantage", "removeDisadvantage", "end"
+    "token": "xxxxxxx",
+    "operation": "addPoint"/"removePoint"/"end"
     "parameters": {
-        "attribute": "F/H/...",
-        "points":
+        "attribute": "F"/"H"/"R"/"A"/"PdF",
+        "points": 0
     }
 }
-
 RESPONSE:
-
 {
-    "token": xxx,
-    success/fail
+    "token": "xxxxxxx",
+    "message": "success"/"fail"
 }

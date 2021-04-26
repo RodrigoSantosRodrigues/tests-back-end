@@ -1,0 +1,5 @@
+[MASTER]
+extension-pkg-whitelist=pydantic
+disable=C0114, # missing-module-docstring
+disable=C0115, # missing-class-docstring
+disable=C0116, # missing-function-docstring
